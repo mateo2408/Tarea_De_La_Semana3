@@ -19,5 +19,7 @@ int main()
     primer_digito_n2 = n2 / 10;
 
     producto = primer_digito_n1 * primer_digito_n2;
+
+    printf("El producto mutuo del primer digito de cada numero (%d y %d) es: %d", n1,n2, producto);
     return 0;
 }
