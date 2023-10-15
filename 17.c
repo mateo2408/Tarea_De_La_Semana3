@@ -16,6 +16,10 @@ int main()
     scanf("%d", &x);
     printf("Introduce el valor de y: ");
     scanf("%d", &y);
-    
+
+    for (int i = 1; i <= x; i++) {
+    suma_multiplos_2 += 2 * i;
+    cantidad_multiplos_2++;
+    }
     return 0;
 }
