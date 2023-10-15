@@ -13,6 +13,8 @@ int main()
     {
         fac *= i;
     }
+
+    printf("El factorial de %d es: %d", num, fac);
     
     return 0;
 }
