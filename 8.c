@@ -3,6 +3,7 @@
 #include<stdio.h>
 int main()
 {
-    /* code */
+    int i;
+    
     return 0;
 }
