@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/mateocisneros/VisualStudio/Segundo_Semestre/Primer_Progreso/Tarea_De_La_Semana3",
+      "program": "/Users/mateocisneros/VisualStudio/Segundo_Semestre/Primer_Progreso/Tarea_De_La_Semana3/build/Debug/outDebug"
+    }
+  ]
+}
