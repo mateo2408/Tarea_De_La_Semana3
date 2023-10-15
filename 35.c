@@ -9,6 +9,12 @@ int main()
     int primer_digito_n1;
     int primer_digito_n2;
     int producto;
+
+    printf("Ingresa el primer numero -> ");
+    scanf("%d", &n1);
+    printf("Ingresa el segundo numero -> ");
+    scanf("%d", &n2);
+
     
     return 0;
 }
