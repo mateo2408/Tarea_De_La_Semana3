@@ -4,6 +4,11 @@ mutuo del primer dígito de cada uno.*/
 #include<stdio.h>
 int main()
 {
-    /* code */
+    int n1;
+    int n2;
+    int primer_digito_n1;
+    int primer_digito_n2;
+    int producto;
+    
     return 0;
 }
