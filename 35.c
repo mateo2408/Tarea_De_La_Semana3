@@ -17,5 +17,7 @@ int main()
 
     primer_digito_n1 = n1 / 10;
     primer_digito_n2 = n2 / 10;
+
+    producto = primer_digito_n1 * primer_digito_n2;
     return 0;
 }
