@@ -6,6 +6,9 @@ int main()
     int num;
     int mayor = 0;
 
+    printf("ingrese un numero -> ");
+    scanf("%d", &num);
+
     while (num > 0)
     {
         int digito = num % 10;
@@ -17,6 +20,8 @@ int main()
 
         num /= 10;
     }
+
+    printf("El digito mayor es: %d", mayor);
     
     return 0;
 }
