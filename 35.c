@@ -15,6 +15,7 @@ int main()
     printf("Ingresa el segundo numero -> ");
     scanf("%d", &n2);
 
-    
+    primer_digito_n1 = n1 / 10;
+    primer_digito_n2 = n2 / 10;
     return 0;
 }
