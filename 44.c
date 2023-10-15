@@ -8,5 +8,11 @@ int main()
 
     printf("Ingrese un numero para culcular su factorial -> ");
     scanf("%d", &num);
+
+    for (int i = 0; i < num; i++)
+    {
+        fac *= i;
+    }
+    
     return 0;
 }
