@@ -21,5 +21,10 @@ int main()
     suma_multiplos_2 += 2 * i;
     cantidad_multiplos_2++;
     }
+
+    for (int i = 1; i <= y; i++) {
+    suma_multiplos_5 += 5 * i;
+    cantidad_multiplos_5++;
+    }
     return 0;
 }
