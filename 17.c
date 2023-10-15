@@ -31,5 +31,11 @@ int main()
 
     promedio_multiplos_5 = suma_multiplos_5 / cantidad_multiplos_5;
 
+       if (promedio_multiplos_2 > promedio_multiplos_5) {
+    printf("El promedio de los x primeros múltiplos de 2 es mayor que el promedio de los y primeros múltiplos de 5.\n");
+    } else {
+    printf("El promedio de los x primeros múltiplos de 2 es menor o igual que el promedio de los y primeros múltiplos de 5.\n");
+     }
+     
     return 0;
 }
