@@ -11,6 +11,11 @@ int main()
     int cantidad_multiplos_5 = 0;
     float promedio_multiplos_2;
     float promedio_multiplos_5;
+
+    printf("Introduce el valor de x: ");
+    scanf("%d", &x);
+    printf("Introduce el valor de y: ");
+    scanf("%d", &y);
     
     return 0;
 }
