@@ -3,6 +3,8 @@
 #include<stdio.h>
 int main()
 {
-    /* code */
+    int num;
+    int mayor = 0;
+    
     return 0;
 }
