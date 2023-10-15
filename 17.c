@@ -26,5 +26,10 @@ int main()
     suma_multiplos_5 += 5 * i;
     cantidad_multiplos_5++;
     }
+
+    promedio_multiplos_2 = suma_multiplos_2 / cantidad_multiplos_2;
+
+    promedio_multiplos_5 = suma_multiplos_5 / cantidad_multiplos_5;
+
     return 0;
 }
